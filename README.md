@@ -17,7 +17,7 @@ This project is an implementation of an autonomous Deep Reinforcement Learning a
 
 ### 🎥 Gameplay Demo
 <p align="center">
-  <img src="Modular DQN AI.gif" alt="DQN Agent Gameplay" width="600"/>
+  <img src="./Modular DQN AI.gif" alt="DQN Agent Gameplay" width="600"/>
 </p>
 
 ---
@@ -28,7 +28,7 @@ The project is built with a clean, modular architecture:
 - **`game.py`** — Core game logic, state management, and reward system.
 - **`qplayer.py`** — The reinforcement learning agent, handling exploration/exploitation, policy, and memory replay.
 - **`model.py`** — Neural network architecture definitions using **PyTorch (Dueling DQN)**.
-- **`tile.py`** — Handles obstacles and environment entities[cite: 2].
+- **`tile.py`** — Handles obstacles and environment entities.
 
 ---
 
@@ -48,4 +48,3 @@ To run this project locally, follow these steps:
    ```bash
    git clone [https://github.com/Yahya-Alrabayah/Modular-DQN-AI-Game.git](https://github.com/Yahya-Alrabayah/Modular-DQN-AI-Game.git)
    cd Modular-DQN-AI-Game
-   
